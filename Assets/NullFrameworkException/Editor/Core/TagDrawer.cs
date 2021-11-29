@@ -1,9 +1,6 @@
 using UnityEditor;
 using UnityEngine;
 
-// Just ".Editor" because we ignore ".Core"
-// If it were say mobile it would be:
-// namespace NullFrameworkException.Editor.Mobile
 namespace NullFrameworkException.Editor
 {
     // Now Unity knows to use .this drawer to render anything

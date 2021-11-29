@@ -27,14 +27,14 @@ namespace NullFrameworkException.Test.SortingAlgorithm
         }
 
         /// <summary>Sorts all values in the range using a bubble sort, resets text</summary>
-        protected override void Sort()
+        protected override void Sort(int[] inputArray)
         {
             int temp;
-            for (int j = 0; j <= values.Length - 2; j++)
+            for (int j = 0; j <= inputArray.Length - 2; j++)
             {
                 for (int i = 0; i <= values.Length - 2; i++)
                 {
-                    if (values[i] > values[i + 1])
+                    if (inputArray[i] > inputArray[i + 1])
                     {
                         temp = values[i + 1];
                         values[i + 1] = values[i];

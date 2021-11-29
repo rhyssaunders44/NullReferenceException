@@ -248,7 +248,7 @@ MonoBehaviour:
   size: {x: 1, y: 1, z: 1}
   center: {x: 0, y: 0, z: 0}
   floorYPosition: 0
-  spawnRate: {x: 1.0801886, y: 2.080188}
+  spawnRate: {x: 0, y: 1}
   shouldSpawnBoss: 0
   bossSpawnChance: 1
   bossPrefab: {fileID: 0}

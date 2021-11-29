@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace NullFrameworkException.Editor
 {
-    /// <summary> This is to allow you to rename an attribute in inspector :) ~ Thanks Kieran </summary>
+    /// <summary> This is to allow you to rename an attribute in inspector</summary>
     [CustomPropertyDrawer(typeof(RenameAttribute))]
     public class RenameDrawer : PropertyDrawer
     {

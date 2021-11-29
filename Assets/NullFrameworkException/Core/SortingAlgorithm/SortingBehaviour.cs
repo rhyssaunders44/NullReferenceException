@@ -9,7 +9,7 @@ namespace NullFrameworkException.Core.SortingAlgorithm
         protected abstract void Randomise();
 
         /// <summary>Sorts all values in the range using a bubble sort, resets text</summary>
-        protected abstract void Sort();
+        protected abstract void Sort(int[] inputArray);
         
     }
 }
