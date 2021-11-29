@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/NullFrameworkException/Test/Core/SceneDragNDropTest/Scene3.unity
     guid: 46e330b271fcccc43a961b6dc0fa6f71
+  - enabled: 1
+    path: Assets/NullFrameworkException/Test/Core/SortingAlgorithm/SortingAlgorithm.unity
+    guid: 5d5b53a4d5ab87b4bab5d7f0d0bcc7f8
+  - enabled: 1
+    path: Assets/NullFrameworkException/Test/Core/SearchingAlgorithm/SearchingAlgorithm.unity
+    guid: 5abf338b3fa7c114b9edf737b923d108
   m_configObjects: {}

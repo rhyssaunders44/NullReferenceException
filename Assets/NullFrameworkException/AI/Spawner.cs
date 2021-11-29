@@ -8,7 +8,7 @@ namespace NullFrameworkException.AI
 		public Vector3 center = Vector3.zero;
 
 		[SerializeField, Tooltip("Use the GameObject's yPosition always when spawning an object.")]
-		private bool floorYPosition = false;
+		private bool floorYPosition;
 		[SerializeField] private Vector2 spawnRate = new Vector2(0, 1);
 
 		[SerializeField] private bool shouldSpawnBoss = false;

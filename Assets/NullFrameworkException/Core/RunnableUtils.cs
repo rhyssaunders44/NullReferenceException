@@ -1,14 +1,10 @@
-using System;
-
 using UnityEngine;
 
-namespace NullFrameworkException
+namespace NullFrameworkException.Core
 {
     public static class RunnableUtils
     {
-        /// <summary>
-        /// Attempts to retrieve the runnable behaviour from the passed gameObject or its children.
-        /// </summary>
+        /// <summary>Attempts to retrieve a runnable behaviour from the passed gameObject or its children.</summary>
         /// <param name="_runnable">The reference the runnable will be set to.</param>
         /// <param name="_from">The gameObject we are attempting to get a runnable from.</param>
         public static bool Validate<TRunnable>(ref TRunnable _runnable, GameObject _from) 
@@ -47,9 +43,7 @@ namespace NullFrameworkException
             return false;
         }
 
-        /// <summary>
-        /// Attempts to validate then setup the IRunnable, returning whether or not it succeeded.
-        /// </summary>
+        /// <summary>Attempts to validate then setup the IRunnable, returning whether or not it succeeded.</summary>
         /// <param name="_runnable">The runnable being setup.</param>
         /// <param name="_from">The gameObject the runnable is attached to.</param>
         /// <param name="_params">Any additional information the Runnable's setup function needs.</param>
@@ -67,9 +61,7 @@ namespace NullFrameworkException
             return false;
         }
 
-        /// <summary>
-        /// Attempts to validate the runnable and if successful, run it using the information provided.
-        /// </summary>
+        /// <summary>Attempts to validate the runnable and if successful, run it using the information provided</summary>
         /// <param name="_runnable">The runnable being run.</param>
         /// <param name="_from">The gameObject the runnable is attached to.</param>
         /// <param name="_params">Any additional information the Runnable's run function needs.</param>

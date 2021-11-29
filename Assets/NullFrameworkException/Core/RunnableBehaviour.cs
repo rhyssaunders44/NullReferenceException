@@ -1,15 +1,16 @@
 using System;
-
 using UnityEngine;
 
-namespace NullFrameworkException
+namespace NullFrameworkException.Core
 {
 	public abstract class RunnableBehaviour : MonoBehaviour, IRunnable
 	{
 		public bool Enabled { get; set; } = true;
-
 		private bool isSetup = false;
 
+		/// <summary>Sets up the runnable behaviour</summary>
+		/// <param name="_params"></param>
+		/// <exception cref="InvalidOperationException"></exception>
 		public void Setup(params object[] _params)
 		{
 			// If the runnable is already setup, throw an exception to warn the developer
