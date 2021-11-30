@@ -1,5 +1,4 @@
 using UnityEngine;
-
 namespace NullFrameworkException.AI
 {
 	public class  Spawner : MonoBehaviour

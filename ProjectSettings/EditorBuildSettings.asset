@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/NullFrameworkException/Test/Core/SearchingAlgorithm/SearchingAlgorithm.unity
     guid: 5abf338b3fa7c114b9edf737b923d108
+  - enabled: 1
+    path: Assets/NullFrameworkException/Test/EditorExample/EditorTest.unity
+    guid: 7850f12c9568f4941b21c377e4609ba8
   m_configObjects: {}

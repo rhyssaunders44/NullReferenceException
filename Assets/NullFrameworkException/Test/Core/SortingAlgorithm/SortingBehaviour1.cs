@@ -16,6 +16,11 @@ namespace NullFrameworkException.Test.SortingAlgorithm
             Randomise();
         }
 
+        public void Sortage()
+        {
+            Sort(values);
+        }
+
         /// <summary>Randomises The Numbers, and sets the text value</summary>
         protected override void Randomise()
         {

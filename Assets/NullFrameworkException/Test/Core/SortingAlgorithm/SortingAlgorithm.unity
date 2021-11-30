@@ -613,9 +613,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 713346258}
-        m_TargetAssemblyTypeName: NullFrameworkException.SortingAlgorithm.SortingBehaviour,
+        m_TargetAssemblyTypeName: NullFrameworkException.Test.SortingAlgorithm.SortingBehaviour1,
           Assembly-CSharp
-        m_MethodName: Sort
+        m_MethodName: Sortage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1053,11 +1053,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5534857126240541864, guid: 74249b10c21c8f442a368065fad82272, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -363.6982
+      value: -336.5526
       objectReference: {fileID: 0}
     - target: {fileID: 5534857126240541864, guid: 74249b10c21c8f442a368065fad82272, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -468.4656
+      value: -441.32
       objectReference: {fileID: 0}
     - target: {fileID: 5534857126240541864, guid: 74249b10c21c8f442a368065fad82272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1089,11 +1089,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5534857126240541864, guid: 74249b10c21c8f442a368065fad82272, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 13.572815
       objectReference: {fileID: 0}
     - target: {fileID: 5534857126240541864, guid: 74249b10c21c8f442a368065fad82272, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 13.572815
       objectReference: {fileID: 0}
     - target: {fileID: 5534857126240541864, guid: 74249b10c21c8f442a368065fad82272, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

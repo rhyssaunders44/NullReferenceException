@@ -218,6 +218,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2267972190849001314, guid: cee1b589c5197764994ad50969fdae88, type: 3}
+      propertyPath: sceneInt.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267972190849001314, guid: cee1b589c5197764994ad50969fdae88, type: 3}
+      propertyPath: sceneInt.Array.data[4]
+      value: NullFrameworkException/Test/Core/SceneDragNDropTest/Scene3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267972190849001314, guid: cee1b589c5197764994ad50969fdae88, type: 3}
+      propertyPath: sceneInt.Array.data[5]
+      value: NullFrameworkException/Test/Core/SortingAlgorithm/SortingAlgorithm
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267972190849001314, guid: cee1b589c5197764994ad50969fdae88, type: 3}
+      propertyPath: sceneInt.Array.data[6]
+      value: NullFrameworkException/Test/Core/SearchingAlgorithm/SearchingAlgorithm
+      objectReference: {fileID: 0}
     - target: {fileID: 7019106643034609892, guid: cee1b589c5197764994ad50969fdae88, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 5

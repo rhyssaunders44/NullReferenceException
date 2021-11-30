@@ -1164,6 +1164,8 @@ MonoBehaviour:
   - NullFrameworkException/Test/Core/SceneDragNDropTest/Scene1
   - NullFrameworkException/Test/Core/SceneDragNDropTest/Scene2
   - NullFrameworkException/Test/Core/SceneDragNDropTest/Scene3
+  - NullFrameworkException/Test/Core/SortingAlgorithm/SortingAlgorithm
+  - NullFrameworkException/Test/Core/SearchingAlgorithm/SearchingAlgorithm
 --- !u!1 &2267972190910330603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1506,7 +1508,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
